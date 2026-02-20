@@ -1,0 +1,6 @@
+.lista-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-bottom: 50px;
+}

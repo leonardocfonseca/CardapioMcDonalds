@@ -1,0 +1,63 @@
+.modal-fundo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 1;
+}
+
+.modal-carrinho {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 100%;
+    width: 384px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    /* color: white; */
+    background-color: white;
+}
+
+
+.topo-modal-carrinho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101828;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.topo-modal-carrinho button {
+    border: none;
+    background: transparent;
+    padding: 4px;
+    border-radius: 10px;
+    line-height: 16px;
+}
+
+.topo-modal-carrinho button:hover {
+    background-color: #1E2939;
+}
+
+.conteudo-modal-carrinho {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width: 620px) {
+    .modal-carrinho {
+        width: 100vw;
+        height: 100vh;
+    }
+}

@@ -1,0 +1,14 @@
+.notificacao-carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DA291C;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 360px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 24px;
+    height: 24px;
+}

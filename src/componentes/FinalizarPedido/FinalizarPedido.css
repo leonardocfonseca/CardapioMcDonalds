@@ -1,0 +1,23 @@
+.total-modal-carrinho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 0.8px;
+    color: #0A0A0A;
+    border-top: 1px solid #E5E7EB;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.valor-total-carrinho {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #101828;
+}
+
+.botao-finalizar-pedido {
+    padding: 0 20px 20px 20px;
+}

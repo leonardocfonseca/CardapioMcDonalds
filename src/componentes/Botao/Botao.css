@@ -1,0 +1,30 @@
+.botao-carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    background-color: #111827;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.botao-carrinho:hover {
+    background-color: #1E2939;
+    transition: background-color 0.2s ease;
+}
+
+@media screen and (max-width: 620px) {
+    .botao-carrinho {
+        font-size: 0;
+        gap: 0;
+        padding: 10px 16px;
+    }
+    
+}

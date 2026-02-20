@@ -1,0 +1,16 @@
+.icone-carrinho {
+    width: 20px;
+}
+
+.icone-mais, .icone-menos {
+    width: 14px;
+}
+
+.icone-fechar {
+    width: 24px;
+    cursor: pointer;
+}
+
+.icone-lixeira {
+    width: 16px;
+}
